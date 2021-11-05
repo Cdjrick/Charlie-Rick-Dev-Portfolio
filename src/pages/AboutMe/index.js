@@ -1,4 +1,4 @@
-function Home() {
+function AboutMe() {
     return (
         <>
         
@@ -6,4 +6,4 @@ function Home() {
     )
 }
 
-export default Home
+export default AboutMe

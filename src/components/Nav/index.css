@@ -1,0 +1,38 @@
+nav {
+    background-color: #070707;
+    color: white
+}
+
+.links {
+    color: #505050
+}
+
+.navBar {
+    height: 100vh;
+    width:  50px;
+    margin: none;
+    padding: none;
+}
+
+.brandName {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+
+    font-family: 'Rubik', sans-serif;
+}
+
+.iconResize {
+    font-size: 30px;
+}
+
+.pageLinks {
+    height: 25rem;
+}
+
+.socials {
+    height: 0;
+    margin-bottom: 1rem;
+}
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css");
