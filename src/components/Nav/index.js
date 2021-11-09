@@ -13,7 +13,7 @@ function NavBar() {
                 <Container>
                     <Row className='navBar'>
                         <Col xs={12} className='p-1 text-center'>
-                            <Navbar.Brand><Link to='/home' className='brandName'>CR</Link></Navbar.Brand>
+                            <Navbar.Brand><Link to='/' className='brandName'>CR</Link></Navbar.Brand>
                         </Col>
                         <Col xs={12} className="p-2 d-flex text-center align-items-center pageLinks">
                             <Nav>

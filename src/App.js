@@ -9,19 +9,29 @@ import ContactMe from './pages/ContactMe';
 import Resume from './pages/Resume';
 import Footer from './components/Footer';
 
+import './app.css'
+
 function App() {
   return (
-    <Router>
-      <NavBar />
-      <Switch>
-        <Route exact path="/" component={Home} />
-        <Route exact path="/aboutme" component={AboutMe} />
-        <Route exact path="/mywork" component={MyWork} />
-        <Route exact path="/contactme" component={ContactMe} />
-        <Route exact path="/resume" component={Resume} />
-      </Switch>
-      <Footer />
-    </Router>
+    <div style={{ display: 'flex' }}>
+      <Router>
+        <div style={{ width: '3.5%' }}>
+          <NavBar />
+        </div>
+        <div className='d-flex flex-column min-vh-100' style={{ width: '96.5%' }}>
+          <div className="wrapper flex-grow-1">
+            <Switch>
+              <Route exact path="/" component={Home} />
+              <Route exact path="/aboutme" component={AboutMe} />
+              <Route exact path="/mywork" component={MyWork} />
+              <Route exact path="/contactme" component={ContactMe} />
+              <Route exact path="/resume" component={Resume} />
+            </Switch>
+          </div>
+            <Footer />
+        </div>
+      </Router>
+    </div>
   )
 }
 

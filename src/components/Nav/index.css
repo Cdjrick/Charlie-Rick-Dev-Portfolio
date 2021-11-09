@@ -1,6 +1,5 @@
-nav {
-    background-color: #070707;
-    color: white
+.navBar {
+    background-color: #0A0A0A;
 }
 
 .links {
@@ -12,6 +11,8 @@ nav {
     width:  50px;
     margin: none;
     padding: none;
+
+    position: fixed;
 }
 
 .brandName {
