@@ -18,17 +18,17 @@ function NavBar() {
                         <Col xs={12} className="p-2 d-flex text-center align-items-center pageLinks">
                             <Nav>
                                 <Row xs={12}>
-                                    <Col><Link className='links' to='/aboutme'><i class="bi bi-person iconResize"></i></Link></Col>
-                                    <Col className='mt-3'><Link className='links' to='/mywork'><i class="bi bi-image iconResize"></i></Link></Col>
-                                    <Col className='mt-3'><Link className='links' to='/contactme'><i class="bi bi-calendar iconResize"></i></Link></Col>
-                                    <Col className='mt-3'><Link className='links' to='/resume'><i class="bi bi-file-earmark-text iconResize"></i></Link></Col>
+                                    <Col><Link className='links' to='/aboutme'><i className="bi bi-person iconResize"></i></Link></Col>
+                                    <Col className='mt-3'><Link className='links' to='/mywork'><i className="bi bi-image iconResize"></i></Link></Col>
+                                    <Col className='mt-3'><Link className='links' to='/contactme'><i className="bi bi-calendar iconResize"></i></Link></Col>
+                                    <Col className='mt-3'><Link className='links' to='/resume'><i className="bi bi-file-earmark-text iconResize"></i></Link></Col>
                                 </Row>
                             </Nav>
                         </Col>
                         <Col xs={12} className='p-2 text-center socials'>
                             <Row>
-                                <Col><a className='links' href='https://www.linkedin.com/in/charlie-rick-499a9120/'><i class="bi bi-linkedin iconResize"></i></a></Col>
-                                <Col className='mt-3'><a className='links' href='https://github.com/Cdjrick'><i class="bi bi-github iconResize"></i></a></Col>
+                                <Col><a className='links' href='https://www.linkedin.com/in/charlie-rick-499a9120/'><i className="bi bi-linkedin iconResize"></i></a></Col>
+                                <Col className='mt-3'><a className='links' href='https://github.com/Cdjrick'><i className="bi bi-github iconResize"></i></a></Col>
                             </Row>
                         </Col>
                     </Row>

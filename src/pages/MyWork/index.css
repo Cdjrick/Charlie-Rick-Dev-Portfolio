@@ -1,0 +1,60 @@
+.contain {
+    position: relative;
+}
+
+.myWorkRow {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    z-index: 1;
+    color: white;
+    transition: 0.3s ease-in-out;
+    overflow: hidden;
+
+    /* color: black; */
+
+    display: grid;
+    grid-template-rows: min-content 1fr min-content;
+}
+
+.title {
+    margin-top: 10px;
+}
+
+.description {
+    margin-top: 20px;
+}
+
+.school {
+}
+
+.contain:hover img {
+    transition: 0.3s ease-in-out;
+    opacity: 0.2;
+}
+
+.contain:hover .overlay {
+    transition: 0.5s ease-in-out;
+    opacity: 1;
+    cursor: pointer;
+}
+
+.mywork {
+    width: 100%;
+    overflow: hidden;
+    transition: 0.5s ease-in-out;
+    opacity: 1;
+}
+
+@media only screen and (max-width: 990px) {
+    .mywork {
+        margin-bottom: 20px;
+    }
+}

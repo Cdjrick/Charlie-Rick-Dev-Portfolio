@@ -1,0 +1,26 @@
+.contain {
+    justify-content: center;
+    align-items: center;
+
+    height: 100%;
+}
+
+.contactMe {
+    font-size: 16.5px;
+}
+
+.contact-links {
+    margin: 10px;
+    justify-content: center;
+}
+
+.formInput {
+    background-color: #0A0A0A;
+    color: white;
+    border: none;
+}
+
+.formInput:focus {
+    background-color: #0A0A0A;
+    color: white;
+}
