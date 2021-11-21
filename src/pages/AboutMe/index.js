@@ -16,8 +16,8 @@ function AboutMe() {
                 </p>
 
                 <p>
-                    Over this time I have obtained many important skills outline on my resume, including but not limited to Jira, React, Handlebars, NodeJS, Express, Bootstrap, 
-                    MongoDB, MySQL, UX Design.
+                    Over this time I have obtained many important skills outlined on my resume, including but not limited to Jira, React, Handlebars, NodeJS, Express, Bootstrap, 
+                    MongoDB, Mongoose, MySQL, UX Design and UI Design.
                 </p>
 
                 <p>

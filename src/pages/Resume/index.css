@@ -1,0 +1,69 @@
+.title {
+    margin: 100px auto;
+}
+
+.skillsContainer {
+    position: absolute;
+    top: 40%;
+    transform: translateY(-50%);
+}
+
+.generalSkills {
+    line-height: 30px;
+}
+
+.developSkills {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.developSkills li {
+    width: 50%;
+    line-height: 30px;
+}
+
+ul {
+    list-style: none;
+}
+
+.inquiry {
+    width: 50%;
+    margin: 50px auto;
+}
+
+@media only screen and (max-width: 992px) {
+    .skillsContainer {
+        position: relative;
+    }
+
+    .column {
+        margin-top: 20px;
+    }
+
+    ul {
+        margin-top: 20px;
+    }
+
+    .generalSkills {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .generalSkills li {
+        width: 10%;
+    }
+
+    .developSkills li {
+        width: 25%;
+    }
+
+    .inquiry {
+        width: 100%;
+        font-size: 40px;
+    }
+
+    li {
+        margin-top: 5px;
+    }
+}

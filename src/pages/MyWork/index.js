@@ -1,4 +1,4 @@
-import { Container, Row, Col } from 'react-bootstrap'
+import { Row, Col } from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import './index.css'
@@ -65,7 +65,7 @@ function MyWork() {
                 <Row className='myWorkRow text-center' xs={12} lg={6}>
                     {myWork.map(project => (
                         <Col xs={12} lg={6} className='contain mx-auto m-0 p-0'>
-                            <a href={project.link} target='_blank'>
+                            <a href={project.link} target='_blank' rel="noreferrer">
                             <Col x={12} lg={6} className='overlay text-center m-0 p-0'>
                                 <h4 className='title'>{project.title}</h4>
                                 <p className='description'>{project.description}</p>

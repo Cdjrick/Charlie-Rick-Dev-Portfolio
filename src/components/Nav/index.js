@@ -1,4 +1,4 @@
-import React from "react";
+import React, { createRef } from "react";
 import { Link } from "react-router-dom";
 
 import './index.css'
@@ -7,6 +7,14 @@ import { Navbar, Container, Nav, Row, Col } from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function NavBar() {
+    const state = { isTooltipOpen: false };
+
+    const tooltipOpen = () => {
+        this.setState({ isTooltipOpen: true });
+    };
+
+    const { isTooltipOpen } = this.state;
+
     return (
         <>
             <Navbar className='navBar'>
@@ -18,7 +26,10 @@ function NavBar() {
                         <Col xs={12} className="p-2 d-flex text-center align-items-center pageLinks">
                             <Nav>
                                 <Row xs={12}>
-                                    <Col><Link className='links' to='/aboutme'><i className="bi bi-person iconResize"></i></Link></Col>
+                                    <Col>
+                                        <Link className='links' to='/aboutme'><i className="bi bi-person iconResize"></i></Link>
+                                        <p ref={this.tooltip} id='tooltip' className={isTooltipOpen ? "" : "hidden"} >About Me</p>
+                                    </Col>
                                     <Col className='mt-3'><Link className='links' to='/mywork'><i className="bi bi-image iconResize"></i></Link></Col>
                                     <Col className='mt-3'><Link className='links' to='/contactme'><i className="bi bi-calendar iconResize"></i></Link></Col>
                                     <Col className='mt-3'><Link className='links' to='/resume'><i className="bi bi-file-earmark-text iconResize"></i></Link></Col>
