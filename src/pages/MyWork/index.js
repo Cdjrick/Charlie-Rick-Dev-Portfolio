@@ -62,20 +62,36 @@ function MyWork() {
 
     return (
         <>
-                <Row className='myWorkRow text-center' xs={12} lg={6}>
-                    {myWork.map(project => (
-                        <Col xs={12} lg={6} className='contain mx-auto m-0 p-0'>
-                            <a href={project.link} target='_blank' rel="noreferrer">
+            <Row className='experify mx-auto'>
+                <Col xs={12} md={4} lg={3} xl={2} className='experifyOverlay text-center m-0 p-0'>
+                    <a className='experifyLink' href='https://xd.adobe.com/view/a9666b78-72b9-4789-6cfe-22e29a43af11-df57/grid' target='_blank' rel="noreferrer">
+                        <h4 className='title'>ExperifyHealth</h4>
+                    </a>
+                    <p className='description'>As part of a collaboration with 4 others we worked alongside a
+                        real client to create a working prototype for something they wanted created. I was the primary
+                        UI and UX designer on this project. Click the title to see the rest of the screens that were 
+                        created, or contact me to see the working prototype.</p>
+                    <p className='school'>Algonquin College</p>
+                </Col>
+
+                <img className='mx-auto experifyScreen' src='/images/myWork/Experify1.png' alt=''></img>
+                <img className='mx-auto experifyScreen' src='/images/myWork/Experify2.png' alt=''></img>
+                <img className='mx-auto experifyScreen' src='/images/myWork/Experify3.png' alt=''></img>
+            </Row>
+            <Row className='myWorkRow text-center' xs={12} lg={6}>
+                {myWork.map(project => (
+                    <Col xs={12} lg={6} className='contain mx-auto m-0 p-0'>
+                        <a href={project.link} target='_blank' rel="noreferrer">
                             <Col x={12} lg={6} className='overlay text-center m-0 p-0'>
                                 <h4 className='title'>{project.title}</h4>
                                 <p className='description'>{project.description}</p>
                                 <p className='school'>{project.school}</p>
                             </Col>
                             <img className='mywork mr-0' src={project.img} alt={project.title}></img>
-                            </a>
-                        </Col>
-                    ))}
-                </Row>
+                        </a>
+                    </Col>
+                ))}
+            </Row>
         </>
     )
 }

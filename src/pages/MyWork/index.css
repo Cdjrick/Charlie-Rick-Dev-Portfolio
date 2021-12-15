@@ -18,7 +18,7 @@
     transition: 0.3s ease-in-out;
     overflow: hidden;
 
-    /* color: black; */
+    
 
     display: grid;
     grid-template-rows: min-content 1fr min-content;
@@ -30,9 +30,6 @@
 
 .description {
     margin-top: 20px;
-}
-
-.school {
 }
 
 .contain:hover img {
@@ -53,8 +50,66 @@
     opacity: 1;
 }
 
+.experify {
+    position: relative;
+    
+    justify-content: center;
+    align-items: center;
+
+    margin: 50px auto;
+}
+
+.experify img {
+    width: 20%;
+
+    opacity: 1;
+}
+
+.experify:hover img {
+    transition: 0.3s ease-in-out;
+    opacity: 0.2;
+}
+
+.experify:hover .experifyOverlay {
+    transition: 0.5s ease-in-out;
+    opacity: 1;
+    cursor: pointer;
+}
+
+.experifyOverlay {
+    position: absolute;
+    height: 100%;
+    width: 60%;
+    opacity: 0;
+    z-index: 1;
+    color: white;
+    transition: 0.3s ease-in-out;
+    overflow: hidden;
+
+    display: grid;
+    grid-template-rows: min-content 1fr min-content;
+}
+
+.experifyLink:link {
+    color: white;
+    text-decoration: none;
+}
+
+.experifyLink:visited {
+    color: white;
+    text-decoration: none;
+}
+
 @media only screen and (max-width: 990px) {
     .mywork {
         margin-bottom: 20px;
+    }
+
+    .experify img {
+        width: 50%;
+    }
+
+    .experifyOverlay {
+        width: 90%;
     }
 }

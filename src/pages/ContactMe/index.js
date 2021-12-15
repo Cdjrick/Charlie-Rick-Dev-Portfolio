@@ -28,7 +28,7 @@ function ContactMe() {
                     </h1>
                     <p className='contactMe'>
                         If you wish to contact me about potential job opportunities, or freelance work, don't hesitate
-                        to use the form below or contact me directly using the information at the bottom of the page
+                        to use the form below or contact me directly using the email at the bottom of the page
                     </p>
                     <div className='text-center'>
                         <a className='links contact-links' href='https://www.linkedin.com/in/charlie-rick-499a9120/'><i className='bi bi-linkedin iconResize'></i></a>

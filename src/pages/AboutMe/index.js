@@ -8,7 +8,7 @@ function AboutMe() {
                 <img className='mx-auto' src='/images/headshot.svg' alt='Me'></img>
             </div>
 
-            <div className='content mx-auto'>
+            <div className='aboutMeContent mx-auto'>
                 <p>
                     My Name is Charlie Rick. I am currently looking for a job in the field of Front End Web Development, User Interface Design, or User Experience Design. 
                     I attended a 2 year course at Algonquin College for Mobile App Design and Development, and then a 6 month Carleton University Coding Bootcamp. 

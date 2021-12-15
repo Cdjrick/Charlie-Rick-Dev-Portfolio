@@ -15,7 +15,7 @@ function App() {
   return (
     <div style={{ display: 'flex' }}>
       <Router>
-        <div style={{ width: '50px', zIndex: '2' }}>
+        <div className='nav' style={{ width: '50px', zIndex: '2' }}>
           <NavBar />
         </div>
         <div className='d-flex flex-column min-vh-100' style={{ overflow: 'hidden', width: '100%' }}>

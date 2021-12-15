@@ -3,9 +3,9 @@
 }
 
 .skillsContainer {
-    position: absolute;
-    top: 40%;
-    transform: translateY(-50%);
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
 
 .generalSkills {
@@ -51,7 +51,7 @@ ul {
     }
     
     .generalSkills li {
-        width: 10%;
+        width: 20%;
     }
 
     .developSkills li {
