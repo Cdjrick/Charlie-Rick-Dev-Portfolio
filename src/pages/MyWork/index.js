@@ -74,9 +74,9 @@ function MyWork() {
                     <p className='school'>Algonquin College</p>
                 </Col>
 
-                <img className='mx-auto experifyScreen' src='/images/myWork/Experify1.png' alt=''></img>
-                <img className='mx-auto experifyScreen' src='/images/myWork/Experify2.png' alt=''></img>
-                <img className='mx-auto experifyScreen' src='/images/myWork/Experify3.png' alt=''></img>
+                <img className='mx-auto experifyScreen' src='./images/myWork/Experify1.png' alt=''></img>
+                <img className='mx-auto experifyScreen' src='./images/myWork/Experify2.png' alt=''></img>
+                <img className='mx-auto experifyScreen' src='./images/myWork/Experify3.png' alt=''></img>
             </Row>
             <Row className='myWorkRow text-center' xs={12} lg={6}>
                 {myWork.map(project => (
