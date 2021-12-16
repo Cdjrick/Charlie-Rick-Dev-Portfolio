@@ -4,7 +4,7 @@ function Home() {
     return (
         <>
                 <div className='logo'>
-                    <img src='/images/Logo-01.svg' alt='Website Logo' style={{ width: '50%' }}></img>
+                    <img src='./images/Logo-01.svg' alt='Website Logo' style={{ width: '50%' }}></img>
                 </div>
         </>
     )

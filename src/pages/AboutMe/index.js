@@ -5,7 +5,7 @@ function AboutMe() {
         <>
             <div className='text-center'>
                 <h2>About Me</h2>
-                <img className='mx-auto' src='./Charlie-Rick-Dev-Portfolio/images/headshot.svg' alt='Me'></img>
+                <img className='mx-auto' src='./images/headshot.svg' alt='Me'></img>
             </div>
 
             <div className='aboutMeContent mx-auto'>
