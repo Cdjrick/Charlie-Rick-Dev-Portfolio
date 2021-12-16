@@ -14,7 +14,7 @@ import './app.css'
 function App() {
   return (
     <div style={{ display: 'flex' }}>
-      <Router basename={process.env.PUBLIC_URL}>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <div className='nav' style={{ width: '50px', zIndex: '2' }}>
           <NavBar />
         </div>
@@ -30,7 +30,7 @@ function App() {
           </div>
             <Footer />
         </div>
-      </Router>
+      </BrowserRouter>
     </div>
   )
 }
