@@ -14,7 +14,7 @@ import './app.css'
 function App() {
   return (
     <div style={{ display: 'flex' }}>
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <div className='nav' style={{ width: '50px', zIndex: '2' }}>
           <NavBar />
         </div>
